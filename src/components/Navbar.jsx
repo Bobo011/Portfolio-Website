@@ -26,8 +26,8 @@ const Navbar = () => {
             alt="logo"
             className="w-12 h-12 object-contain"
           />
-          <p className="text-white text-[18px] font-bold cursor-pointer">
-            Portfolio{" "}
+          <p className="text-white text-[18px] font-bold cursor-pointer flex">
+            Portfolio &nbsp;
             <span className="sm:block hidden">George | Mosiashvili </span>
           </p>
         </Link>
@@ -62,8 +62,11 @@ const Navbar = () => {
                   key={nav.id}
                   className={`${
                     active === nav.title ? "text-white" : "text-secondary"
-                  } hover:text-white text{18px} font-medium cursor-pointer`}
-                  onclick={() => setActive(nav.title)}
+                  } font-poppins font-medium cursor-pointer text-[16px]`}
+                  onClick={() => {
+                    setToggle(!toggle);
+                    setActive(nav.title);
+                  }}
                 >
                   <a href={`#${nav.id}`}>{nav.title}</a>
                 </li>
