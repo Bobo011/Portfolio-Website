@@ -20,7 +20,7 @@ window.scrollTo(0,0);
 }}
 >
 <img src='g-logo.png' alt='logo' className='w-9 h-9 object-contain' />
-
+<p className='text-white text-[18px] font-bold cursor-pointer'> <span className='sm:block hidden'>George | Mosiashvili </span></p>
 </Link>
 </div>
 
