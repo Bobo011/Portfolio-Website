@@ -183,29 +183,29 @@ const testimonials = [
 ];
 
 const projects = [
-  {
-    name: "Codebook",
-    description:
-      "CodeBook is the world's most popular and authoritative source for computer science ebooks. Find ratings and access to the newest books digitally.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "typescript",
-        color: "green-text-gradient",
-      },
+  // {
+  //   name: "Codebook",
+  //   description:
+  //     "CodeBook is the world's most popular and authoritative source for computer science ebooks. Find ratings and access to the newest books digitally.",
+  //   tags: [
+  //     {
+  //       name: "react",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "typescript",
+  //       color: "green-text-gradient",
+  //     },
 
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: codeBook,
-    source_code_link1: "https://github.com/Bobo011/CodeBook",
-    source_code_link2: "https://codebook-gm.netlify.app/",
-  },
+  //     {
+  //       name: "tailwind",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: codeBook,
+  //   source_code_link1: "https://github.com/Bobo011/CodeBook",
+  //   source_code_link2: "https://codebook-gm.netlify.app/",
+  // },
   {
     name: "Movie App",
     description:
