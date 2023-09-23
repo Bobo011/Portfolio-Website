@@ -30,11 +30,24 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
+
+
+
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import codebook from "./Projects/codebook.png";
+import fitnessApp from "./Projects/fitness-app.png";
+import movieApp from "./Projects/movie-app.png";
+import passwordGenerator from "./Projects/password-generator.png";
+import taskmate from "./Projects/taskmate.png";
 
 export {
+  codebook,
+  fitnessApp,
+  movieApp,
+  passwordGenerator,
+  taskmate,
   softline,
   flora,
   itcs,
