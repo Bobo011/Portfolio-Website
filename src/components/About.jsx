@@ -51,7 +51,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        &ldquo;Hello! &nbsp;&nbsp;&nbsp;👋 I'm a passionate software developer
+        &ldquo;Hello!My Name is George Mosiashvili &nbsp;&nbsp;&nbsp;👋 I'm a passionate software developer
         with a focus on TypeScript and JavaScript. While I have experience in
         frameworks like React, Node.js, and Three.js, I also consider myself a
         lifelong learner in the exciting world of coding. My approach is all
