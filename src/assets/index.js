@@ -10,6 +10,11 @@ import ibsu from './company/ibsu.png'
 import  itcs from './company/itcs.png'
 import  softline from './company/softline.png'
 import flora from "./company/flora.png";
+import netlify from './netlify.png'
+import shopmate from './Projects/shopmate.png'
+import  carapp from './Projects/carapp.png'
+import thread from "./Projects/thread.png";
+
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -36,14 +41,18 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
-import codebook from "./Projects/codebook.png";
+import codeBook from "./Projects/codebook.png";
 import fitnessApp from "./Projects/fitness-app.png";
 import movieApp from "./Projects/movie-app.png";
 import passwordGenerator from "./Projects/password-generator.png";
 import taskmate from "./Projects/taskmate.png";
 
 export {
-  codebook,
+  thread,
+  carapp,
+  shopmate,
+  netlify,
+  codeBook,
   fitnessApp,
   movieApp,
   passwordGenerator,

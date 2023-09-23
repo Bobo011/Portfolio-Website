@@ -1,5 +1,8 @@
 import {
-  codebook,
+  carapp,
+  thread,
+  shopmate,
+  codeBook,
   fitnessApp,
   movieApp,
   passwordGenerator,
@@ -20,9 +23,6 @@ import {
   mongodb,
   git,
   itcs,
-  carrent,
-  jobit,
-  tripguide,
   threejs,
 } from "../assets";
 
@@ -192,98 +192,173 @@ const projects = [
         name: "react",
         color: "blue-text-gradient",
       },
+      {
+        name: "typescript",
+        color: "green-text-gradient",
+      },
 
       {
         name: "tailwind",
         color: "pink-text-gradient",
       },
     ],
-    image: codebook,
-    source_code_link: "https://github.com/Bobo011/CodeBook",
+    image: codeBook,
+    source_code_link1: "https://github.com/Bobo011/CodeBook",
+    source_code_link2: "https://codebook-gm.netlify.app/",
   },
   {
-    name: "Job IT",
+    name: "Movie App",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Web application that enables users to search for movies, view latest or upcoming ones, and search for the movie of your choice.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "typescript",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "tailwind",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: movieApp,
+    source_code_link1:
+      "https://github.com/Bobo011/React-Projects-New/tree/341c90b816f277d5a36b62f4399b3ec16c741f1a/vite-react/Projects/05-Movie-App/movie-app",
+    source_code_link2: "https://movies-app-g.netlify.app/",
   },
   {
-    name: "Trip Guide",
+    name: "Fitness App",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Your go-to fitness app for personalized workout plans, nutrition tracking, and expert guidance. Achieve your health goals with ease.",
+    tags: [
+      {
+        name: "typescript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "green-text-gradient",
+      },
+      {
+        name: "react",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: fitnessApp,
+    source_code_link1:
+      "https://github.com/Bobo011/Fitness-Application-Type-React.git",
+    source_code_link2: "https://fitness-typescript-vite.netlify.app/",
+  },
+  {
+    name: "Password Generator",
+    description:
+      "Generate strong, secure passwords effortlessly with our Password Generator app. Protect your online accounts with ease.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "green-text-gradient",
+      },
+      {
+        name: "typescript",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: passwordGenerator,
+    source_code_link1: "https://github.com/Bobo011/Password-generator",
+    source_code_link2: "https://password-generator-gm.netlify.app/",
+  },
+  {
+    name: "Task Maker",
+    description:
+      "Easily manage your tasks and stay organized with our Task Maker app. Boost your productivity and keep track of your to-do lists.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "green-text-gradient",
+      },
+    ],
+    image: taskmate,
+    source_code_link1:
+      "https://github.com/Bobo011/React-Projects-New/tree/341c90b816f277d5a36b62f4399b3ec16c741f1a/vite-react/Projects/02-TaskMate/task-mate",
+    source_code_link2: "https://add-tasks1.netlify.app/",
+  },
+  {
+    name: "Shop Mate",
+    description:
+      "Shop smart with Shop Mate, your perfect shopping companion. Discover deals, save money, and enjoy a seamless shopping experience.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "green-text-gradient",
+      },
+    ],
+    image: shopmate,
+    source_code_link1:
+      "https://github.com/Bobo011/React-Projects-New/tree/master/vite-react/Projects/07-Shopmatecr",
+    source_code_link2: "https://shopmate-1.netlify.app/",
+  },
+  {
+    name: "Car App",
+    description:
+      "Rev up your passion for cars with our car enthusiast app. Explore, connect, and experience the world of automobiles like never before.",
     tags: [
       {
         name: "nextjs",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "tailwind",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "typescript",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: carapp,
+    source_code_link1: "https://github.com/Bobo011/08-car-showcase.git",
+    source_code_link2: "https://08-car-showcase.vercel.app/",
   },
   {
-    name: "Trip Guide",
+    name: "Threads",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Discover, connect, and engage with like-minded individuals on our Threads app. Join conversations, share ideas, and foster meaningful connections in your favorite communities.",
     tags: [
       {
         name: "nextjs",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "mongoDB",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "tailwind",
         color: "pink-text-gradient",
       },
-    ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
       {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
+        name: "typescript",
+        color: "orange-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: thread,
+    source_code_link1: "https://github.com/Bobo011/09-threads-clone.git",
+    source_code_link2: "https://09-threads-clone.vercel.app/",
   },
 ];
 
