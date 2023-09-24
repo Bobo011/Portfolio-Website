@@ -109,9 +109,7 @@ const experiences = [
     iconBg: "#383E56",
     date: "September 2012 - September 2014",
     points: [
-      "Maintained computers, faxes and Network cables.",
-      "Managed university Technical stock.",
-      "Collaborated with vendors to locate replacement components and resolve advanced problems. ",
+      "Managed university technical stock, facilitated vendor collaborations for component replacements, and maintained computer systems and network infrastructure.",
     ],
   },
   {
@@ -121,10 +119,7 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "September 2014 - May 2018",
     points: [
-      "Assessed, Stored and took out necessary technical material, machines or machine parts to clients and coworkers.",
-      "Helped maintain healthy Network and Technical conditions for client companies. ",
-      "Prepared reports by collecting, analyzing and summarizing information.",
-      "Designed and prepared technical reports, studies and related documentation.",
+      "Oversaw technical materials, maintained networks, and created detailed reports.",
     ],
   },
   {
@@ -134,10 +129,7 @@ const experiences = [
     iconBg: "#383E56",
     date: "July 2018 - Jan 2020",
     points: [
-      "Installed, managed and monitored Checkpoint Security Gateway Appliances. ",
-      "Created security logs via Smartconsole(Checkpoints Security Management Software) in order to troubleshoot network based problems. ",
-      "Provided technical and software support for co-workers and clients.",
-      "Monitored network capacity and performance, as well as diagnosed and resolved complex network problems.",
+      "Managed Checkpoint Security Gateway Appliances, troubleshooting network issues, providing support, and monitoring network performance.",
     ],
   },
   {
@@ -147,10 +139,7 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "Feb 2020 - Present",
     points: [
-      "Managing the warehouse and the stock",
-      "Filled the appropriate documents like FITO, Invoice etc. ",
-      "Maintaining Technical Condition of the warehouse IT and Otherwise",
-      "Monitoring and Solving Complex Network Problems",
+      "Manage warehouse operations, including stock control and documentation.",
     ],
   },
 ];
