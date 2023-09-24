@@ -18,9 +18,11 @@ module.exports = {
       fontSize:{
         small:'10px'
       },
+    
       screens: {
         med:'640px',
         xs: "320px",
+        xxs:'280px',
       },
       backgroundImage: {
         "hero-pattern": "url('/src/assets/herobg.png')",
