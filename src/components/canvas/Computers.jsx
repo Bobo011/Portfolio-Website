@@ -1,5 +1,6 @@
+/* eslint-disable react/prop-types */
 /* eslint-disable react/no-unknown-property */
-import React, { Suspense, useEffect, useState } from "react";
+import  { Suspense, useEffect, useState } from "react";
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 
@@ -22,8 +23,8 @@ const Computers = ({ isMobile }) => {
       <pointLight intensity={1} />
       <primitive
         object={computer.scene}
-        scale={isMobile ? 0.4 : 0.75}
-        position={isMobile ? [0, -3, -1.2] : [0, -3.25, -1.5]}
+        scale={isMobile ? 0.35 : 0.55}
+        position={isMobile ? [0, -3, -0.5] : [0, -3.25, -0.7]}
         rotation={[-0.01, -0.2, -0.1]}
       />
     </mesh>
