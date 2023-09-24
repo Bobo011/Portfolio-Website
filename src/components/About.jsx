@@ -1,4 +1,8 @@
-import React from "react";
+/* eslint-disable react-refresh/only-export-components */
+/* eslint-disable react/no-unescaped-entities */
+/* eslint-disable react/prop-types */
+/* eslint-disable react/no-unknown-property */
+
 import { Tilt } from 'react-tilt'
 import { motion } from "framer-motion";
 
@@ -49,7 +53,7 @@ const About = () => {
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
-        className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
+        className="mt-4 text-secondary text-[17px]  max-w-3xl leading-[30px]"
       >
         Hello! I'm George Mosiashvili, a passionate software developer
         specializing in TypeScript and JavaScript. With experience in React,
