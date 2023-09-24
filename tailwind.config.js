@@ -19,6 +19,7 @@ module.exports = {
         small:'10px'
       },
       screens: {
+        med:'640px',
         xs: "320px",
       },
       backgroundImage: {
