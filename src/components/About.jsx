@@ -51,15 +51,12 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        &ldquo;Hello!My Name is George Mosiashvili &nbsp;&nbsp;&nbsp;👋 I'm a passionate software developer
-        with a focus on TypeScript and JavaScript. While I have experience in
-        frameworks like React, Node.js, and Three.js, I also consider myself a
-        lifelong learner in the exciting world of coding. My approach is all
-        about collaboration—I love working closely with clients to craft
-        efficient, scalable, and user-friendly solutions that tackle real-world
-        challenges. Whether you're a seasoned pro or just starting your journey
-        in software development, let's team up to turn your ideas into
-        reality!&rdquo;
+        Hello! I'm George Mosiashvili, a passionate software developer
+        specializing in TypeScript and JavaScript. With experience in React,
+        Node.js, and Three.js, I'm a lifelong learner in the exciting coding
+        world. I thrive on collaboration and crafting efficient, user-friendly
+        solutions for real-world challenges. Let's team up to bring your ideas
+        to life!
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

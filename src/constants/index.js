@@ -47,7 +47,7 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "React Developer",
     icon: mobile,
   },
   {
@@ -183,29 +183,55 @@ const testimonials = [
 ];
 
 const projects = [
-  // {
-  //   name: "Codebook",
-  //   description:
-  //     "CodeBook is the world's most popular and authoritative source for computer science ebooks. Find ratings and access to the newest books digitally.",
-  //   tags: [
-  //     {
-  //       name: "react",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "typescript",
-  //       color: "green-text-gradient",
-  //     },
+  {
+    name: "Threads",
+    description:
+      "Discover, connect, and engage with like-minded individuals on our Threads app. Join conversations, share ideas, and foster meaningful connections in your favorite communities.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongoDB",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "typescript",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: thread,
+    source_code_link1: "https://github.com/Bobo011/09-threads-clone.git",
+    source_code_link2: "https://09-threads-clone.vercel.app/",
+  },
+  {
+    name: "Car App",
+    description:
+      "Rev up your passion for cars with our car enthusiast app. Explore, connect, and experience the world of automobiles like never before.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "green-text-gradient",
+      },
+      {
+        name: "typescript",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: carapp,
+    source_code_link1: "https://github.com/Bobo011/08-car-showcase.git",
+    source_code_link2: "https://08-car-showcase.vercel.app/",
+  },
 
-  //     {
-  //       name: "tailwind",
-  //       color: "pink-text-gradient",
-  //     },
-  //   ],
-  //   image: codeBook,
-  //   source_code_link1: "https://github.com/Bobo011/CodeBook",
-  //   source_code_link2: "https://codebook-gm.netlify.app/",
-  // },
   {
     name: "Movie App",
     description:
@@ -311,54 +337,6 @@ const projects = [
     source_code_link1:
       "https://github.com/Bobo011/React-Projects-New/tree/master/vite-react/Projects/07-Shopmatecr",
     source_code_link2: "https://shopmate-1.netlify.app/",
-  },
-  {
-    name: "Car App",
-    description:
-      "Rev up your passion for cars with our car enthusiast app. Explore, connect, and experience the world of automobiles like never before.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "green-text-gradient",
-      },
-      {
-        name: "typescript",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: carapp,
-    source_code_link1: "https://github.com/Bobo011/08-car-showcase.git",
-    source_code_link2: "https://08-car-showcase.vercel.app/",
-  },
-  {
-    name: "Threads",
-    description:
-      "Discover, connect, and engage with like-minded individuals on our Threads app. Join conversations, share ideas, and foster meaningful connections in your favorite communities.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongoDB",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "typescript",
-        color: "orange-text-gradient",
-      },
-    ],
-    image: thread,
-    source_code_link1: "https://github.com/Bobo011/09-threads-clone.git",
-    source_code_link2: "https://09-threads-clone.vercel.app/",
   },
 ];
 
