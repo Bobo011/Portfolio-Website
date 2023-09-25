@@ -40,7 +40,7 @@ const ComputersCanvas = () => {
 
     // Set the initial value of the `isMobile` state variable
     setIsMobile(mediaQuery.matches);
-
+console.log("isMobile:", mediaQuery.matches);
     // Define a callback function to handle changes to the media query
     const handleMediaQueryChange = (event) => {
       setIsMobile(event.matches);
