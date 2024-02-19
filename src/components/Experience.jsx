@@ -33,7 +33,7 @@ const ExperienceCard = ({ experience }) => {
       }
     >
       <div>
-        <h3 className="text-white text-[24px] font-bold  overflow-wrap break-word">
+        <h3 className="text-white  text-[24px] font-bold overflow-hidden overflow-wrap break-word">
           {experience.title}
         </h3>
         <p

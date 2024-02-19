@@ -133,7 +133,7 @@ const experiences = [
     ],
   },
   {
-    title: "Programmer/Warehouse Inventory Control Manager ",
+    title: "Programmer, Warehouse Inventory Control Manager",
     company_name: "Impex Flora",
     icon: flora,
     iconBg: "#E6DEDD",
