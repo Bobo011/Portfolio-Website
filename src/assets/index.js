@@ -7,6 +7,8 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 import ibsu from './company/ibsu.png'
+import Kovzy from './company/Kovzy.png'
+import storera from './company/storera.png'
 import  itcs from './company/itcs.png'
 import  softline from './company/softline.png'
 import flora from "./company/flora.png";
@@ -61,12 +63,14 @@ export {
   flora,
   itcs,
   ibsu,
+  Kovzy,
   logo,
   backend,
   creator,
   mobile,
   web,
   github,
+  storera,
   menu,
   close,
   css,

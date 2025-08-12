@@ -9,6 +9,8 @@ import {
   taskmate,
   flora,
   ibsu,
+  Kovzy,
+  storera,
   mobile,
   backend,
   softline,
@@ -104,7 +106,7 @@ const experiences = [
   {
     title: "Frontend Engineer",
     company_name: "Kovzy.com",
-    icon: ibsu,
+    icon: Kovzy,
     iconBg: "#383E56",
     date: "December 2022 - Present",
     points: [
@@ -117,7 +119,7 @@ const experiences = [
   {
     title: "Frontend Engineer",
     company_name: "Storera",
-    icon: itcs,
+    icon: storera,
     iconBg: "#E6DEDD",
     date: "January 2021 - December 2022",
     points: [
