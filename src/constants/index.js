@@ -54,7 +54,6 @@ const services = [
     title: "TypeScript Developer",
     icon: backend,
   },
- 
 ];
 
 const technologies = [
@@ -103,43 +102,43 @@ const technologies = [
 
 const experiences = [
   {
-    title: "IT Assistant",
-    company_name: "IBSU - International Black Sea Univercity, Tbilisi",
+    title: "Frontend Engineer",
+    company_name: "Kovzy.com",
     icon: ibsu,
     iconBg: "#383E56",
-    date: "September 2012 - September 2014",
+    date: "December 2022 - Present",
     points: [
-      "Managed university technical stock, facilitated vendor collaborations for component replacements, and maintained computer systems and network infrastructure.",
+      "Refactored 200+ React components using MUI, establishing a consistent design system to streamline development.",
+      "Boosted table component performance by 300% through virtualization, enhancing user experience on data-heavy pages.",
+      "Upgraded API management with GraphQL, reducing server load by 20% for 60+ endpoints via efficient caching.",
+      "Collaborated with designers using Figma, creating 15 responsive interfaces to improve mobile user satisfaction by 15%",
     ],
   },
   {
-    title: "Technical Support/Technical Supply Coordinator",
-    company_name: "ITCS",
+    title: "Frontend Engineer",
+    company_name: "Storera",
     icon: itcs,
     iconBg: "#E6DEDD",
-    date: "September 2014 - May 2018",
+    date: "January 2021 - December 2022",
     points: [
-      "Oversaw technical materials, maintained networks, and created detailed reports.",
+      "Designed a monorepo architecture for 5+ front-end projects, cutting development time by 20% with TypeScript.",
+      "Implemented Docker caching for builds, reducing CI/CD pipeline times by 50% across 10+ deployments.",
+      "Enhanced MongoDB integration for 50+ API endpoints, improving query efficiency by 25% with Node.js.",
+      "Built 100+ reusable React components, increasing UI consistency and speeding feature development by 15%.",
     ],
   },
   {
     title: "Network Engineer",
-    company_name: "Softline Georgia, Tbilisi",
+    company_name: "Softline Group",
     icon: softline,
     iconBg: "#383E56",
-    date: "July 2018 - Jan 2020",
+    date: "June 2018 - December 2022",
     points: [
-      "Managed Checkpoint Security Gateway Appliances, troubleshooting network issues, providing support, and monitoring network performance.",
-    ],
-  },
-  {
-    title: "Programmer, Warehouse Inventory Control Manager",
-    company_name: "Impex Flora",
-    icon: flora,
-    iconBg: "#E6DEDD",
-    date: "Feb 2020 - Present",
-    points: [
-      "Manage warehouse operations, including stock control and documentation.",
+      " Strengthened security with Checkpoint appliances, reducing network downtime by 25% for 100+ servers.",
+      "Improved incident response using Smartconsole, cutting troubleshooting time by 30% for 50+ monthly issues.",
+      "Enhanced network stability through monitoring, achieving 20% higher uptime for 1000+ client connections.",
+      "Deployed 200+ monitoring tools, actively resolving 80% of potential issues to minimize downtime.",
+      "Mentored 2 junior engineers on security protocols, improving team efficiency by 10% in 6 months",
     ],
   },
 ];
