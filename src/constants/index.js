@@ -134,7 +134,7 @@ const experiences = [
     company_name: "Softline Group",
     icon: softline,
     iconBg: "#383E56",
-    date: "June 2018 - December 2022",
+    date: "June 2018 - January 2021",
     points: [
       " Strengthened security with Checkpoint appliances, reducing network downtime by 25% for 100+ servers.",
       "Improved incident response using Smartconsole, cutting troubleshooting time by 30% for 50+ monthly issues.",
